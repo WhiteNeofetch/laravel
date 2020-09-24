@@ -1,0 +1,35 @@
+body{
+    background: #ffffff;
+}
+
+nav{
+    margin-bottom: 15px;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.card-img{
+    height: 200px;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-img, .card-author, .card-date,.card-descr{
+    margin-bottom: 10px;
+}
+
+.card-img__max{
+    height: 500px;
+}
+
+.card-btn{
+    display:flex;
+}
+
+.card-btn a{
+    margin-right: 10px;
+}
